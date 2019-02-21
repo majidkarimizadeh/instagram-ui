@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
-import Dashboard from './components/Dashboard'
+import Dashboard from './containers/Dashboard'
+import User from './containers/User'
 import classNames from 'classnames'
+import menu from './utils/menu'
 import { AppTopbar } from './components/partial/AppTopbar'
 import { AppFooter } from './components/partial/AppFooter'
 import { AppMenu } from './components/partial/AppMenu'
@@ -21,7 +23,6 @@ class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            menu: [],
             err: null,
             layoutMode: 'static',
             layoutColorMode: 'dark',
@@ -139,12 +140,14 @@ class App extends Component {
                                 <img alt="Logo" src={logo} style={{width:'30%'}} />
                             </div>
                             <AppInlineProfile />
-                            <AppMenu model={this.state.menu} onMenuItemClick={this.onMenuItemClick} />
+                            <AppMenu model={menu} onMenuItemClick={this.onMenuItemClick} />
                         </div>
                     </ScrollPanel>
                 </div>
                 <div className="layout-main">
-                    <Route path='/' component={Dashboard} />
+
+                    <Route exact path='/admin' component={Dashboard} />
+                    <Route exact path='/admin/users' component={User} />
                 </div>
                 <AppFooter />
                 <div className="layout-mask"></div>
