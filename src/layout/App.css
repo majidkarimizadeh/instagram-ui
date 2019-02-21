@@ -2,9 +2,18 @@ html, body, #root{
   	height:100%;
 }
 
+ul.layout-main-menu li a *{
+	font-size: 13px !important;
+}
+
 .layout-wrapper .layout-sidebar ul li ul{
 	padding-left: 0px !important;
-	padding-right: 1.5em !important;
+	padding-right: 0.5em !important;
+}
+
+.layout-wrapper .layout-sidebar ul li a i {
+	font-size: 22px;
+	margin-left: 10px;
 }
 
 .full-width-upload-btn > span {
@@ -173,10 +182,6 @@ div.day-items.selected {
 	font-weight: 400;
     font-size: 14px;
     text-transform: initial;
-}
-.layout-wrapper .layout-sidebar ul li a i {
-	font-size: 22px;
-	margin-left: 14px;
 }
 
 body .p-datatable .p-datatable-header, 
