@@ -1,0 +1,516 @@
+html, body, #root{
+  	height:100%;
+}
+
+.layout-wrapper .layout-sidebar ul li ul{
+	padding-left: 0px !important;
+	padding-right: 1.5em !important;
+}
+
+.full-width-upload-btn > span {
+	width: 100% !important;
+}
+
+.lable {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.custom-toolbar {
+	margin-bottom: 25px;
+	background-color: #f4f4f4 !important;
+	border: 1px solid #c8c8c8 !important;
+}
+
+.p-toolbar-group-right > button {
+	margin: 4px  0px  4px 4px
+}
+
+.p-toolbar-group-left > button {
+	margin: 4px  4px  4px 0px
+}
+.form-footer {
+	margin-top: 15px;
+}
+.form-footer > button {
+	margin: 2px;
+}
+
+
+.JC-years > input {
+	margin: 5px 5px 
+}
+.JDatePicker {
+	direction: rtl;
+	color: #333333;
+	border: 1px solid #c8c8c8;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    z-index: 90000 !important;
+}
+.JDheader, .JC-months, .days-titles, .day-items {
+	padding: 8px;
+}
+.days-titles > div {
+	font-weight: bold !important
+}
+.JC-months > .holder {
+	width: 100% !important;
+}
+.holder > .prev, .next {
+	font-weight: bold !important;
+}
+.monthPicker {
+	top: 35px !important;
+	right: 0px !important;
+	padding: 10px !important;
+}
+.monthPicker > .month-items {
+	padding: 10px !important;
+	border: 0px !important;
+}
+.JDatePicker .month-items:hover, .JDatePicker .month-items.selected {
+	background: lavender !important;
+	color: #222 !important
+}
+
+.JDatePicker .day-items:hover {
+	background: lavender !important;
+}
+
+.current-date {
+	background: lavenderblush !important;
+}
+
+div.day-items.selected {
+	background: lavender !important;
+}
+
+.JDsubmit , .JDcancel {
+	border-radius: 2px !important;
+	font-size: 14px !important;
+	margin: 0px !important;
+	width: auto !important;
+	height: auto !important;
+	margin-left: 6px !important;
+	margin-top: 10px !important;
+	color: #222 !important;
+	padding: 6px 10px !important;
+}
+
+.JC-years > div > div.right > select, 
+.JC-years > div > div.left > select {
+	background: transparent !important
+}
+
+
+.p-datepicker-month, .p-datepicker-year {
+	background: transparent !important;
+	border: none !important;
+}
+
+
+.card {	
+	-webkit-box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+	box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+	background-color: #fff;
+}
+
+.layout-topbar, .layout-footer {
+	-webkit-box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.1);
+    box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.1);
+}
+
+.card h1 {
+	margin: 0px;
+	border-bottom: 0px;
+	padding: 0px;
+}
+
+.card-heading {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	justify-content: space-between;
+	margin-bottom: 0.8em !important;
+	border-bottom: 1px solid #eee;
+}
+
+.card-heading-caption {
+    padding: .1em;
+    font-size: 24px;
+    margin-bottom: 10px !important;
+}
+.card-heading-actions {
+	margin-bottom: 10px !important;
+}
+.card-heading-actions > button{
+	margin: 0px 2px;
+}
+
+.p-button-secondary {
+	border-color: #ddd !important;
+}
+
+.layout-topbar-item-text , 
+.layout-topbar-icon , 
+.layout-menu-button {
+	color: #b8bece !important
+}
+
+
+.layout-wrapper .layout-sidebar ul li a span,
+.layout-wrapper .layout-sidebar ul li a i {
+	font-weight: 400;
+    font-size: 14px;
+    text-transform: initial;
+}
+.layout-wrapper .layout-sidebar ul li a i {
+	font-size: 22px;
+	margin-left: 14px;
+}
+
+body .p-datatable .p-datatable-header, 
+body .p-dataview .p-dataview-header,
+.p-highlight {
+	background-color: #5867dd !important;
+	border-color: #5867dd !important;
+}
+
+.p-sortable-column-icon > .pi-sort{
+	font-weight: 100 !important;
+	font-size: 1em !important;
+}
+
+body .p-tabview.p-tabview-top .p-tabview-nav li, 
+body .p-tabview.p-tabview-bottom .p-tabview-nav li,
+body .p-tabview.p-tabview-left .p-tabview-nav li,
+body .p-tabview.p-tabview-right .p-tabview-nav li {
+	border-radius: 6px !important;
+	background-color: transparent;
+	border-color: #ddd;
+	margin: 0px 0px 6px 6px !important;	
+	float: right;
+}
+
+body .p-tabview.p-tabview-top .p-tabview-nav li:hover, 
+body .p-tabview.p-tabview-bottom .p-tabview-nav li:hover,
+body .p-tabview.p-tabview-left .p-tabview-nav li:hover,
+body .p-tabview.p-tabview-right .p-tabview-nav li:hover {
+	background-color: #5867dd !important;
+	border-color: #5867dd !important;
+}
+
+body .p-tabview.p-tabview-top .p-tabview-nav li a, 
+body .p-tabview.p-tabview-bottom .p-tabview-nav li a,
+body .p-tabview.p-tabview-left .p-tabview-nav li a,
+body .p-tabview.p-tabview-right .p-tabview-nav li a {
+	color: #6f727d
+}
+
+body .p-tabview.p-tabview-top .p-tabview-nav li a:hover, 
+body .p-tabview.p-tabview-bottom .p-tabview-nav li a:hover,
+body .p-tabview.p-tabview-left .p-tabview-nav li a:hover,
+body .p-tabview.p-tabview-right .p-tabview-nav li a:hover {
+	color: #eee;
+}
+
+
+.p-tabview-panels  {
+	margin-top: 10px;
+	border-radius: 0px !important;
+}
+
+.tab-table-view > div.p-tabview-panels {
+	padding: 0px !important;
+}
+
+
+div.p-paginator.p-paginator-bottom {
+	display: inline-block;
+	background-color: #fff;
+	margin-top: 15px;
+	border:none !important;
+}
+
+a.p-paginator-element {
+	border-radius: 50% !important;
+}
+
+body .p-dataview .p-dataview-content,
+body .p-dataview .p-dataview-footer,
+body .p-datatable .p-datatable-thead > tr > th,
+body .p-datatable .p-datatable-tbody > tr > td,
+body .p-dataview .p-dataview-thead > tr > th,
+body .p-dataview .p-dataview-tbody > tr > td {
+	border-color: #eee;
+}
+
+body .p-datatable .p-datatable-thead > tr > th,
+body .p-dataview .p-dataview-thead > tr > th {
+	background-color: #f4f3f8;
+}
+
+.toolbar-btn, .morph-btn {
+	background-color: #f4f3f8 !important;
+}
+
+.toolbar-btn span.p-button-text {
+	font-size: 13px !important;
+	padding: 0.2em 0.6em 0.2em 2em !important;
+}
+
+.morph-btn span.p-button-text {
+	font-size: 13px !important;
+	padding: 0.2em 0.6em !important;
+}
+
+body .p-dialog .p-dialog-content, 
+.p-dialog-titlebar {
+	text-align: right;
+}
+
+.p-dialog .p-dialog-titlebar-icons {
+	float: left;
+}
+
+.p-dialog-titlebar-danger > div.p-dialog-titlebar {
+	color: #ffffff !important;
+    background-color: #e91224 !important;
+    border: 1px solid #e91224 !important;
+    padding: 8px !important;
+}
+
+a.show-image, a.show-image:hover {
+    width: 100%;
+    display: block;
+    color: black;
+    background: #fff;
+}
+
+.p-growl-message-warn {
+	background-color: #fde4a2 !important
+}
+
+.p-growl-message-success {
+	background-color: #b7d8b7 !important
+}
+
+.p-growl-message-info {
+	background-color: #7fbcec !important
+}
+
+.p-growl-message-error {
+	background-color: #f8b7bd !important
+}
+
+div.validation-error {
+	/*margin: auto 15px;*/
+}
+
+div.validation-error span.p-messages-icon {
+	display: none !important
+}
+
+div.validation-error div.p-messages-wrapper {
+	/*text-align: right;*/
+}
+
+div.validation-error .p-messages .p-messages-close{
+	/*left: 0.5em;
+	right: auto !important;*/
+}
+
+.p-messages-error .p-messages-summary,
+.p-messages-error .p-messages-detail,
+.p-messages-error .p-messages-detail p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.required {
+	font-size: 10px;
+	margin: 0px 8px;
+	color: red;
+}
+
+.table-column {
+	width:225px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+td.table-column {
+	white-space: nowrap;
+}
+
+body .p-checkbox-label {
+    margin: 0 0.5em 0 0.5em !important;
+}
+
+.custom-tree {
+	width: auto !important;
+}
+
+.ic-warning {
+    display: flex;
+	height: 100% !important;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.ic-warning i{
+	font-size: 128px;
+	color: #f3bf00
+}
+
+.error-page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.error-page .status {
+    font-size: 150px !important;
+    font-weight: 600 !important;
+    color: #6587C6;
+}
+
+.error-page .message {
+	font-size: 1.5rem;
+    color: #898b96
+}
+
+.error-page .back {
+	font-size: 14px !important;
+	cursor: pointer;
+}
+
+.filter-dropdown {
+	width: 100% !important;
+	position: static;
+}
+
+.filter-dropdown .p-dropdown-panel {
+	left: auto !important;
+	top: auto !important;
+	min-width: 198px !important;
+}
+
+.filter-dropdown .p-dropdown-trigger {
+	display: none;
+}
+
+.table-header-operation {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+}
+
+.table-header-operation > div:first-child > button{
+	margin-right: 5px;
+}
+
+.table-header-operation > div:last-child > button{
+	margin-left: 5px;
+}
+
+.language-selector-container, 
+.language-selector-container > div {
+	display: inline;
+	margin-right: 4px;
+}
+.language-selector > div {
+	font-size: 12px;
+}
+
+.layout-topbar-fa-icon {
+	color: #b3b3b3;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.layout-topbar-fa-icon:hover {
+	color: #c3c3c3;
+}
+
+.active-stepper {
+	background-color: #5867dd !important;
+	border-color: #5867dd !important;
+	color: white;
+	cursor: pointer;
+}
+
+.step-in-stepper {
+	cursor: pointer;
+	padding: 8px;
+    /*margin: 2px;*/
+    border: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step-in-stepper > i {
+	font-size: 18px;
+}
+
+.radio-input > label {
+	cursor: pointer;
+}
+
+.radio-input > .p-radiobutton {
+	margin: 8px;
+}
+
+.grid-dataview div.p-dataview-content > div.p-grid{
+	margin-top: auto;
+}
+
+.grid-item {	
+	flex: 25%;
+	max-width: 25%;
+	padding: 4px 4px;
+}
+@media screen and (max-width: 800px) {
+  	.grid-item {
+    	flex: 50%;
+    	max-width: 50%;
+  	}
+}
+@media screen and (max-width: 600px) {
+  	.grid-item {
+	    flex: 100%;
+    	max-width: 100%;
+  	}
+}
+
+.grid-item-img {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+.grid-item-btn { 
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 10px;
+}
+.grid-item-btn > button {
+	margin: 4px;
+}
+
+.dataview-custom-paginator {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
